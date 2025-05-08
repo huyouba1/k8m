@@ -5,7 +5,7 @@
 
 [English](README_en.md) | [中文](README.md)
 
-[![k8m](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/weibaohui/k8m/blob/master/LICENSE)
+[![k8m](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/huyouba1/k8m/blob/master/LICENSE)
 
 ![Alt](https://repobeats.axiom.co/api/embed/9fde094e5c9a1d4c530e875864ee7919b17d0690.svg "Repobeats analytics image")
 
@@ -32,7 +32,7 @@
 
 ## **Run**
 
-1. **Download**: Download the latest version from [GitHub](https://github.com/weibaohui/k8m).
+1. **Download**: Download the latest version from [GitHub](https://github.com/huyouba1/k8m).
 2. **Run**: Start with the `./k8m` command and visit [http://127.0.0.1:3618](http://127.0.0.1:3618).
 3. **Parameters**:
 

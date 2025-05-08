@@ -2,9 +2,9 @@ package config
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/models"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/models"
+	"github.com/huyouba1/k8m/pkg/service"
 )
 
 func GetConfig(c *gin.Context) {

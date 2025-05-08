@@ -2,10 +2,10 @@ package service
 
 import (
 	"github.com/fatih/color"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/flag"
-	"github.com/weibaohui/k8m/pkg/models"
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/flag"
+	"github.com/huyouba1/k8m/pkg/models"
 	"gorm.io/gorm"
 	"k8s.io/klog/v2"
 )

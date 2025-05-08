@@ -3,7 +3,7 @@ package utils
 import (
 	"context"
 
-	"github.com/weibaohui/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/constants"
 )
 
 // GetContextWithAdmin 返回一个包含平台管理员角色信息的新上下文对象。

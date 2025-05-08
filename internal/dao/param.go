@@ -4,7 +4,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/constants"
 )
 
 // Params 用于处理分页和排序参数，以及上下文中的用户信息

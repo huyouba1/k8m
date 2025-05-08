@@ -11,12 +11,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/comm/xterm"
+	"github.com/huyouba1/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/service"
 	"github.com/sashabaranov/go-openai"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/comm/xterm"
-	"github.com/weibaohui/k8m/pkg/constants"
-	"github.com/weibaohui/k8m/pkg/service"
 	"k8s.io/klog/v2"
 )
 

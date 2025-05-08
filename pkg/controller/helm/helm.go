@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/constants"
-	"github.com/weibaohui/k8m/pkg/helm"
-	"github.com/weibaohui/k8m/pkg/models"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/helm"
+	"github.com/huyouba1/k8m/pkg/models"
+	"github.com/huyouba1/k8m/pkg/service"
 )
 
 func getHelm(c *gin.Context, namespace string) (helm.Helm, error) {

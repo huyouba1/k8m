@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/duke-git/lancet/v2/slice"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/models"
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/models"
 	"gorm.io/gorm"
 	"helm.sh/helm/v3/pkg/action"
 	"helm.sh/helm/v3/pkg/chart"

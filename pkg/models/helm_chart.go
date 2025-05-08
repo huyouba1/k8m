@@ -3,9 +3,9 @@ package models
 import (
 	"time"
 
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
 	"github.com/lib/pq"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
 	"gorm.io/gorm"
 )
 

@@ -14,9 +14,9 @@ limitations under the License.
 package analyzer
 
 import (
+	"github.com/huyouba1/k8m/pkg/k8sgpt/common"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/weibaohui/k8m/pkg/k8sgpt/common"
 )
 
 var (

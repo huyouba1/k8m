@@ -5,7 +5,7 @@
 
 [English](README_en.md) | [中文](README.md)
 
-[![k8m](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/weibaohui/k8m/blob/master/LICENSE)
+[![k8m](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/huyouba1/k8m/blob/master/LICENSE)
 
 ![Alt](https://repobeats.axiom.co/api/embed/9fde094e5c9a1d4c530e875864ee7919b17d0690.svg "Repobeats analytics image")
 
@@ -49,7 +49,7 @@ Qwen2.5-Coder-7B，支持deepseek-ai/DeepSeek-R1-Distill-Qwen-7B模型
 
 ## **运行**
 
-1. **下载**：从 [GitHub](https://github.com/weibaohui/k8m) 下载最新版本。
+1. **下载**：从 [GitHub](https://github.com/huyouba1/k8m) 下载最新版本。
 2. **运行**：使用 `./k8m` 命令启动,访问[http://127.0.0.1:3618](http://127.0.0.1:3618)。
 3. **登录用户名密码**：
    - 用户名：`k8m`

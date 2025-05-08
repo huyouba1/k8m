@@ -2,8 +2,8 @@ package sts
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
 	"github.com/weibaohui/kom/kom"
 	v1 "k8s.io/api/apps/v1"
 	"k8s.io/klog/v2"

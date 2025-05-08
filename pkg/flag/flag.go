@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/fatih/color"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
 	"github.com/joho/godotenv"
 	"github.com/spf13/pflag"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
 	"k8s.io/client-go/util/homedir"
 	"k8s.io/klog/v2"
 )

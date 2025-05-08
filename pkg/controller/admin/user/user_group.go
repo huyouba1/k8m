@@ -5,11 +5,11 @@ import (
 
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/constants"
-	"github.com/weibaohui/k8m/pkg/models"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/models"
+	"github.com/huyouba1/k8m/pkg/service"
 	"gorm.io/gorm"
 )
 

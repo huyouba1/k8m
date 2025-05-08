@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/weibaohui/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/constants"
 )
 
 // GetJWTClaims 从 Gin 上下文的请求头或查询参数中提取并解析 JWT，返回其 claims。

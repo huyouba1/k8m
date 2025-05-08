@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/huyouba1/k8m/pkg/comm/utils"
 	"github.com/pquerna/otp/totp"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
 )
 
 // GenerateSecret 生成TOTP密钥

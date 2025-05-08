@@ -3,7 +3,7 @@ package ingressclass
 import (
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
 	"github.com/weibaohui/kom/kom"
 	v1 "k8s.io/api/networking/v1"
 )

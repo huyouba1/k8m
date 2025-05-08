@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/constants"
-	"github.com/weibaohui/k8m/pkg/flag"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/constants"
+	"github.com/huyouba1/k8m/pkg/flag"
+	"github.com/huyouba1/k8m/pkg/service"
 )
 
 // EnsureSelectedClusterMiddleware 返回一个 Gin 中间件，用于强制校验请求是否已选择并有权限访问指定集群。

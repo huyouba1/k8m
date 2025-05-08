@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/models"
 	mcp2 "github.com/mark3labs/mcp-go/mcp"
 	"github.com/sashabaranov/go-openai"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/models"
 	"k8s.io/klog/v2"
 )
 

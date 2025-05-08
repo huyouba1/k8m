@@ -5,8 +5,8 @@ import (
 
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
 	"helm.sh/helm/v3/pkg/release"
 	"k8s.io/klog/v2"
 )

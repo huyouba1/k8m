@@ -3,8 +3,8 @@ package models
 import (
 	"fmt"
 
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/flag"
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/flag"
 	"gorm.io/gorm"
 	"k8s.io/klog/v2"
 )
@@ -125,6 +125,7 @@ func FixClusterName() error {
 	}
 	return nil
 }
+
 // AddInnerMCPServer 检查并初始化名为 "k8m" 的内部 MCP 服务器配置，不存在则创建，已存在则更新其 URL。
 func AddInnerMCPServer() error {
 	// 检查是否存在名为k8m的记录

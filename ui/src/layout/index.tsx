@@ -54,7 +54,7 @@ const App = () => {
                         <GithubOutlined
                             className='pointer'
                             style={{ marginLeft: '10px', fontSize: '18px' }}
-                            onClick={() => window.open('https://github.com/weibaohui/k8m', '_blank')}
+                            onClick={() => window.open('https://github.com/huyouba1/k8m', '_blank')}
                         />
                     </h1>
                 </div>

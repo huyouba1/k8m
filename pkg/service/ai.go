@@ -3,9 +3,9 @@ package service
 import (
 	"fmt"
 
-	"github.com/weibaohui/k8m/pkg/ai"
-	"github.com/weibaohui/k8m/pkg/comm/utils"
-	"github.com/weibaohui/k8m/pkg/flag"
+	"github.com/huyouba1/k8m/pkg/ai"
+	"github.com/huyouba1/k8m/pkg/comm/utils"
+	"github.com/huyouba1/k8m/pkg/flag"
 	"k8s.io/klog/v2"
 )
 

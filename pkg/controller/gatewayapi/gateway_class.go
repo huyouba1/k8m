@@ -3,7 +3,7 @@ package gatewayapi
 import (
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
 	"github.com/weibaohui/kom/kom"
 	gatewayapiv1 "sigs.k8s.io/gateway-api/apis/v1"
 )

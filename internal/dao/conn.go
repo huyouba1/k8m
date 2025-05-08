@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/weibaohui/k8m/internal/sqlite"
-	"github.com/weibaohui/k8m/pkg/flag"
+	"github.com/huyouba1/k8m/internal/sqlite"
+	"github.com/huyouba1/k8m/pkg/flag"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

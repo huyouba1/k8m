@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/internal/dao"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/models"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/internal/dao"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/models"
+	"github.com/huyouba1/k8m/pkg/service"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog/v2"
 )

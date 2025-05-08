@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/weibaohui/k8m/pkg/models"
+	"github.com/huyouba1/k8m/pkg/models"
 )
 
 type shellLogService struct {

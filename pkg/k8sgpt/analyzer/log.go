@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/weibaohui/k8m/pkg/k8sgpt/common"
-	"github.com/weibaohui/k8m/pkg/k8sgpt/util"
+	"github.com/huyouba1/k8m/pkg/k8sgpt/common"
+	"github.com/huyouba1/k8m/pkg/k8sgpt/util"
 	"github.com/weibaohui/kom/kom"
 	v1 "k8s.io/api/core/v1"
 )

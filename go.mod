@@ -1,4 +1,4 @@
-module github.com/weibaohui/k8m
+module github.com/huyouba1/k8m
 
 go 1.24.0
 
@@ -36,8 +36,8 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
-//replace github.com/weibaohui/kom v0.1.20 => github.com/weibaohui/kom main
-//replace github.com/weibaohui/kom v0.2.29 => github.com/weibaohui/kom v0.2.30-0.20250504082828-c0893145fefa
+//replace github.com/huyouba1/kom v0.1.20 => github.com/huyouba1/kom main
+//replace github.com/huyouba1/kom v0.2.29 => github.com/huyouba1/kom v0.2.30-0.20250504082828-c0893145fefa
 
 require (
 	dario.cat/mergo v1.0.1 // indirect

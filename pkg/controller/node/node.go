@@ -6,8 +6,8 @@ import (
 
 	"github.com/duke-git/lancet/v2/slice"
 	"github.com/gin-gonic/gin"
-	"github.com/weibaohui/k8m/pkg/comm/utils/amis"
-	"github.com/weibaohui/k8m/pkg/service"
+	"github.com/huyouba1/k8m/pkg/comm/utils/amis"
+	"github.com/huyouba1/k8m/pkg/service"
 	"github.com/weibaohui/kom/kom"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
@@ -334,6 +334,7 @@ func AllTaintList(c *gin.Context) {
 
 	amis.WriteJsonList(c, resultList)
 }
+
 // UniqueLabels 获取选定集群中所有唯一的节点标签键，并以选项列表形式返回。
 func UniqueLabels(c *gin.Context) {
 	selectedCluster, err := amis.GetSelectedCluster(c)

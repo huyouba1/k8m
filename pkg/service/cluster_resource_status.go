@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/weibaohui/k8m/pkg/k8sgpt/analysis"
+	"github.com/huyouba1/k8m/pkg/k8sgpt/analysis"
 	"k8s.io/klog/v2"
 )
 
