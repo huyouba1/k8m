@@ -1,0 +1,80 @@
+{
+  "type": "page",
+  "title": "Kubernetes 集群安装",
+  "body": [
+    {
+      "type": "form",
+      "title": "安装参数",
+      "api": "post:/admin/cluster/install",
+      "mode": "horizontal",
+      "redirect": "",
+      "body": [
+        {
+          "type": "input-text",
+          "name": "cluster_name",
+          "label": "集群名称",
+          "required": true
+        },
+        {
+          "type": "select",
+          "name": "k8s_version",
+          "label": "K8s版本",
+          "options": [
+            {"label": "v1.28.0", "value": "1.28.0"},
+            {"label": "v1.27.0", "value": "1.27.0"},
+            {"label": "v1.26.0", "value": "1.26.0"}
+          ],
+          "required": true
+        },
+        {
+          "type": "input-table",
+          "name": "hosts",
+          "label": "主机列表",
+          "addable": true,
+          "editable": true,
+          "removable": true,
+          "required": true,
+          "columns": [
+            {"type": "input-text", "name": "ip", "label": "IP", "required": true},
+            {"type": "input-text", "name": "port", "label": "SSH端口", "value": "22", "required": true},
+            {"type": "input-text", "name": "user", "label": "用户名", "value": "root", "required": true},
+            {"type": "input-password", "name": "password", "label": "密码", "required": true},
+            {"type": "select", "name": "role", "label": "角色", "options": [
+              {"label": "master", "value": "master"},
+              {"label": "node", "value": "node"}
+            ], "required": true}
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": "button",
+          "label": "开始安装",
+          "level": "primary",
+          "actionType": "submit"
+        }
+      ],
+      "feedback": {
+        "title": "安装进度",
+        "body": {
+          "type": "service",
+          "api": {
+            "method": "get",
+            "url": "/admin/cluster/install/status?id=${result.task_id}",
+            "responseData": {
+              "progress": "${progress}",
+              "log": "${log}"
+            }
+          },
+          "interval": 3000,
+          "body": [
+            {"type": "progress", "value": "${progress}", "showLabel": true},
+            {"type": "textarea", "label": "日志", "value": "${log}", "readOnly": true, "minRows": 10}
+          ]
+        },
+        "size": "lg",
+        "mode": "dialog"
+      }
+    }
+  ]
+} 

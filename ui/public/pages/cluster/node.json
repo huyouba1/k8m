@@ -205,6 +205,12 @@
               }
             ]
           }
+        },
+        {
+          "type": "button",
+          "label": "集群安装",
+          "to": "/cluster/install",
+          "icon": "fa fa-plus-circle"
         }
       ]
     },

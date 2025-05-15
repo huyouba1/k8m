@@ -535,6 +535,10 @@ func main() {
 		// 断开集群，断开后所有人都不可用
 		admin.POST("/cluster/:cluster/disconnect", cluster.Disconnect)
 
+		// 新增：集群安装和进度接口
+		admin.POST("/cluster/install", cluster.InstallCluster)
+		admin.GET("/cluster/install/status", cluster.InstallClusterStatus)
+
 	}
 
 	showBootInfo(Version, flag.Init().Port)

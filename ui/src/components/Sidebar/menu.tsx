@@ -73,6 +73,13 @@ const items: () => MenuItem[] = () => {
             onClick: () => onMenuClick('/user/cluster/cluster_user')
         },
         {
+            label: "集群安装",
+            title: "集群安装",
+            icon: <i className="fa fa-plus-circle"></i>,
+            key: "cluster_install",
+            onClick: () => onMenuClick('/cluster/install')
+        },
+        {
             label: "命名空间",
             title: "命名空间",
             icon: <i className="fa-solid fa-border-style"></i>,
